@@ -1,0 +1,35 @@
+.best-deals{
+    min-height:100vh;
+    padding:60px 0;
+    background:linear-gradient(135deg,#ce3b96,#e40a0a,#d9a4b3);
+}
+
+.deal-card{
+    border:none;
+    border-radius:20px;
+    overflow:hidden;
+    transition:.4s;
+    box-shadow:0 15px 35px rgba(0,0,0,.4);
+}
+
+.deal-card:hover{
+    transform:translateY(-15px) scale(1.05);
+    box-shadow:0 25px 45px rgba(0, 0, 0, 0.979);
+}
+
+.card-img-top{
+    height:220px;
+    object-fit:cover;
+}
+
+.card-body{
+    background:#dd9595;
+}
+
+.card-title{
+    font-weight:bold;
+}
+
+.btn{
+    border-radius:30px;
+}

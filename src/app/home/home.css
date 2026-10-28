@@ -1,0 +1,71 @@
+.home{
+    background:#fff;
+    padding:80px 0;
+}
+
+.title{
+    font-size:60px;
+    color:#b22234;
+    font-family:cursive;
+    margin-bottom:50px;
+}
+
+.santa-img{
+    max-width:450px;
+}
+
+.heading{
+    font-size:48px;
+    color:#b22234;
+    font-weight:700;
+}
+
+.heading i{
+    font-size:35px;
+    margin-right:10px;
+}
+
+p{
+    color:#777;
+    line-height:32px;
+    font-size:18px;
+}
+
+.btn-danger{
+    background:#b22234;
+    border:none;
+    border-radius:5px;
+    padding:12px 30px;
+}
+
+.btn-danger:hover{
+    background:#8f1b29;
+}
+
+.santa-img {
+    width: 75%;
+    max-width: 350px;
+    animation: santaFloat 4s ease-in-out infinite;
+}
+
+@keyframes santaFloat {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateY(-8px) rotate(-2deg);
+    }
+
+    50% {
+        transform: translateY(-15px) rotate(0deg);
+    }
+
+    75% {
+        transform: translateY(-8px) rotate(2deg);
+    }
+
+    100% {
+        transform: translateY(0) rotate(0deg);
+    }
+}
